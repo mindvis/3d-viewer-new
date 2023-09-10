@@ -1,11 +1,11 @@
 import * as THREE from 'three';
-import { OrbitControls } from './three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from './three/addons/loaders/GLTFLoader.js';
-import { EffectComposer } from './three/addons/postprocessing/EffectComposer.js';
-import { RenderPass } from './three/addons/postprocessing/RenderPass.js';
-import { GlitchPass } from './three/addons/postprocessing/GlitchPass.js';
-import { OutputPass } from './three/addons/postprocessing/OutputPass.js';
-import { DebugEnvironment } from "./three/examples/jsm/environments/DebugEnvironment";
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { GlitchPass } from 'three/addons/postprocessing/GlitchPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { DebugEnvironment } from "three/examples/jsm/environments/DebugEnvironment";
 import "style.css";
 
 let currentModel = null;
