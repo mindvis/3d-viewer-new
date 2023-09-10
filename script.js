@@ -208,6 +208,17 @@ document.querySelectorAll("button").forEach((elem) => {
   });
 });
 
+const path = require('path');
+
+module.exports = {
+  entry: './src/main.js', // Entry point for your JavaScript code
+  output: {
+    filename: 'bundle.js', // Output file name
+    path: path.resolve(__dirname, 'dist'), // Output directory
+  },
+};
+
+
 function animate() {
   requestAnimationFrame(animate);
   controls.update();
