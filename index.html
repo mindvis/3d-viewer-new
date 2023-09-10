@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title>My first three.js app</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+<!-- Add the dropdown menu here -->
+
+<button id="directionalLight" class="selected">DirectionalLight</button> |
+    <button id="ambientLight">AmbientLight</button> |
+    <button id="spotLight">SpotLight</button> |
+    <button id="hdr">HDR</button>
+
+<input type="range" id="lightIntensitySlider" min="0.5" max="10" step="0.1" value="1">
+<p id="loadingTime">Loading time: <span id="loadingTimeValue">0</span> seconds</p>
+
+<!-- File input for uploading 3D models -->
+<input type="file" id="modelInput" accept=".gltf, .glb">
+  
+<!-- Display area for the 3D model -->
+<div id="modelContainer"></div>
+
+
+
+
+		<script type="module" src="/main.js"></script>
+        
+	</body>
+</html>

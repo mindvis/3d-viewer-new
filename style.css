@@ -1,0 +1,24 @@
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#error-message {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    color: red;
+}
+
+button.selected {
+    background: #002396;
+    color: white;
+  }
+
+/* Define a style for the selected button */
+.selected {
+    background-color: #0078d4; /* Change to your desired background color */
+    color: #ffffff; /* Change to your desired text color */
+  }
